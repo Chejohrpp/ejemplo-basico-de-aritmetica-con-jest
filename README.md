@@ -9,3 +9,33 @@ Para ejecutar este proyecto, es necesario tener instalado Node.js y Jest en el e
 ```bash
 npm install --save-dev jest
 ```
+## Instalación
+Para instalar este proyecto, sigue los siguientes pasos:
+
+Clona este repositorio en tu equipo local:
+```bash
+git clone https://github.com/Chejohrpp/ejemplo-basico-de-aritmetica-con-jest
+```
+Instala las dependencias del proyecto:
+```bash
+npm install
+```
+Ejecuta las pruebas unitarias:
+```bash
+npm test
+```
+## Estructura del proyecto
+El proyecto está estructurado de la siguiente manera:
+
+```css
+proyecto-node-jest/
+  |- src/
+  |  |- math.js
+  |- test/
+  |  |- math.test.js
+  |- package.json
+  |- .gitignore
+  |- package-lock.json
+  |- README.md
+  ```
+La carpeta src/ contiene el código fuente del proyecto, mientras que la carpeta test/ contiene el archivo de prueba unitaria. El archivo package.json contiene las dependencias del proyecto y los scripts de ejecución, mientras que el archivo .gitignore especifica los archivos que no se deben incluir en el repositorio de Git.
